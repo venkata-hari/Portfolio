@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+@mixin border{
+    width:70%;
+    box-shadow: inset 0 0 5px grey;
+    margin-left:25%;
+    margin-top: 80px;
+}
+@mixin borderinset{
+    box-shadow: inset 0 0 5px grey;
+   
+    display:flex;
+    justify-content: space-between;
+}
+@mixin Flexbox{
+    display:flex;
+    flex-wrap:wrap;
+    
+}
+.border-home{
+    font-family: 'Montserrat', sans-serif;
+   @include border;
+ .border-home-home{
+     cursor: pointer;
+   @include borderinset;
+    #home-textone{
+        border-bottom: 2px solid rgb(38, 156, 202);
+        width:50%;
+    h3{
+        text-align:center;
+    }}
+    #home-textone:hover{
+        background:#e8ecee;
+        color:rgb(38,156,202);
+    }
+    #home-texttwo{
+        width:50%;
+    h3{
+        text-align:center;
+    }}
+  }
+  #home-texttwo:hover{
+    background:#e8ecee;
+    color:rgb(38,156,202);
+    
+}
+
+.home-pageone{
+    #home-upperpage{
+        h2{
+            text-align:center;
+            margin-bottom: 6%;
+        }
+        article{
+         @include Flexbox;
+         justify-content: space-around;
+          div img{ width:25rem;
+         }
+         div h4{
+            color: #645e5e;
+         }
+            .mobile-app-text{
+                width:50%;
+                color: #645e5e;
+            }
+        }
+    }
+    #home-buttons{
+        @include Flexbox;
+        justify-content:space-between;
+        width:99%;
+        button{
+            cursor:pointer;
+            width:17%;
+            padding:3px;
+            font-size:15px;
+            margin-bottom:2%;
+            margin-top:5%;
+        } 
+    }
+    .followsharebuttons{
+  display:flex;
+  justify-content: space-around;
+        .sharebuttons,.sharebuttons1,.sharebuttons2{
+
+        .icon{box-shadow:none;
+          margin-left:1px;
+         width:40px;
+        }
+    }
+   
+    }
+     
+}
+margin-bottom:2%;
+.home-pagetwo{
+    display:none;
+    section{
+        div h4{
+            color: #645e5e; 
+        }
+        div button{
+            cursor:pointer;
+            width:15%;
+            margin-bottom:50%;
+            font-size:15px;
+        }
+    }
+}
+}
+@media(max-width:768px){
+    .border-home{
+        width:100%;
+        
+        margin-left:0.1px;
+        .home-pageone{
+            margin-left:3%;
+            margin-right:3%;
+            #home-upperpage{
+               
+            article{
+              display:block;
+             div h4{
+                 width:100%;
+             }
+              .mobile-app-text{
+                  width:100%;
+              }
+               div img{
+                   width:90%;}}}
+                   #home-buttons button{
+            margin-left:1%;
+        width:30%;
+        }
+                }
+                .home-pagetwo{
+               section{
+                   div h4{
+                       margin-left:3%;
+                   }
+                    div button{
+                          width:40%;
+                        
+                        }
+                    }
+                }    
+               }  
+                          
+}

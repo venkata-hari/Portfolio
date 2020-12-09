@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+@mixin opensource-content-box{
+    box-shadow: inset 0 0 5px grey; 
+    height:auto;
+
+    font-family: 'Montserrat', sans-serif;
+    width:70%;
+    margin-left: 25%;
+    margin-top: 80px;
+   
+    
+}
+.opensource-content-box{
+    @include opensource-content-box;
+
+
+.opensource-content-navbar{
+    box-shadow: inset 0 0 5px grey; 
+    
+    display:flex;
+    justify-content: space-around;
+}
+.opensource-content-navbar-textone{
+    border-bottom:2px solid rgb(18, 162, 219);
+   padding: 5px;
+   text-align: center;
+   width:30%;
+}
+
+.opensource-content-navbar-textone{
+    border-bottom:2px solid rgb(18, 162, 219);
+   padding: 5px;
+   text-align: center;
+   width:50%;
+}
+.opensource-content-navbar-textone:hover{
+background-color: rgb(232, 236, 238);
+color:rgb(1, 177, 247);
+border-radius: 5px;}
+.opensource-content-navbar-texttwo{
+   padding: 5px;
+   text-align: center;
+   width:50%;
+}
+.opensource-content-navbar-texttwo:hover{
+background-color: rgb(232, 236, 238);
+color:rgb(1, 177, 247);
+border-radius: 5px;}
+.opensource-content-certificate-box{
+    display:none;
+}
+@mixin flexbox1 {
+    display:flex;
+   flex-wrap: wrap;
+ justify-content: space-around;
+ 
+}
+.opensource-content-skill-box{
+    @include flexbox1;
+    div{
+        box-shadow:  0 0 5px rgba(65, 60, 60, 0.89);
+        height: 18vh;
+        width:30%;
+        margin-bottom: 20px;
+      margin-top: 4%;
+        text-align: center;
+     .tube9,.tube, .tube1,.tube2,.tube3,.tube4, .tube5,.tube6,.tube7,.tube8{
+          border:1px solid black;
+          height: 10px;
+          box-shadow: none;
+       width:95%;
+       margin-left: 2%;
+       margin-top: 2rem;
+        border-radius: 5px;
+        background-image: linear-gradient(to right, rgb(0, 255, 0) 95% ,white 5%);
+      }
+.tube1{
+    background-image: linear-gradient(to right, rgb(0, 140, 255) 90% ,white 10%); 
+}
+.tube2{
+    background-image: linear-gradient(to right, rgb(255, 208, 0) 80% ,white 20%); 
+}
+.tube3{
+    background-image: linear-gradient(to right, rgb(150, 223, 245) 70% ,white 30%); 
+}
+.tube4{
+    background-image: linear-gradient(to right, rgb(255, 0, 170) 60% ,white 40%); 
+}
+.tube5{
+    background-image: linear-gradient(to right, rgb(175, 221, 116) 79% ,white 21%); 
+}
+.tube6{
+    background-image: linear-gradient(to right, rgb(94, 100, 74) 50% ,white 50%); 
+}
+.tube7{
+    background-image: linear-gradient(to right, rgb(84, 74, 100) 60% ,white 40%); 
+}
+.tube8{
+    background-image: linear-gradient(to right, rgb(190, 240, 28) 60% ,white 40%); 
+}
+.tube9{
+    background-image: linear-gradient(to right, rgba(248, 14, 14, 0.664)50% ,white 50%); 
+}
+}
+}
+.opensource-content-Experience-box{
+    h3{
+        text-align: center;
+    }
+    h4{
+        margin-left: 10%;
+        line-height: 40px;
+        color: #645e5e;
+    }
+}
+}
+@media(max-width:768px){
+    .opensource-content-box{
+        height:auto;
+        width:100%;
+        margin-left: 0.1px;
+       @mixin flexbox {
+           display: flex;
+           flex-direction: column;
+           
+       }
+       .opensource-content-skill-box{
+           @include flexbox;
+           div{
+               width:90%;
+               margin-left: 5%;
+               height: 20vh;
+               .tube9,.tube,.tube1,.tube2,.tube3,.tube4,.tube5,.tube6,.tube7,.tube8{
+                   margin-left: 2%;
+                 margin-top: 2rem;
+               }
+           }
+       }
+       .opensource-content-Experience-box{
+        h3{
+            text-align: center;
+        }
+        h4{
+            margin-left: 1%;
+            line-height: 30px;
+            color: #645e5e;
+        }
+    }
+    }
+   
+}

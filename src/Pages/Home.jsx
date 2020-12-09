@@ -135,16 +135,16 @@ function homeshare2(){
    
     <Zoom right>
     <article  className='sharebuttons' style={{display:'none'}}> 
-<FacebookShareButton url="https://iharicharan.github.io/Portfolio" quote="Hello, My name is HariCharan.I'm a Webdeveloper and UI/UX specialist." className='icon'>
+<FacebookShareButton url="https://haricharanportfolio.web.app" quote="Hello, My name is HariCharan.I'm a Webdeveloper and UI/UX specialist." className='icon'>
      <FacebookIcon size={40} square='true'/>
 </FacebookShareButton>
-<WhatsappShareButton url="*Hello,My name is HariCharan.I'm a Webdeveloper and UI/UX specialist.!*.👉https://iharicharan.github.io/Portfolio" className='icon' >
+<WhatsappShareButton url="*Hello,My name is HariCharan.I'm a Webdeveloper and UI/UX specialist.!*.👉https://haricharanportfolio.web.app" className='icon' >
 <WhatsappIcon size={40} square='true'/>
 </WhatsappShareButton>
-<TwitterShareButton url="Hello, My name is HariCharan.I'm a Webdeveloper and UI/UX specialist.👉 https://iharicharan.github.io/Portfolio"  className='icon'>
+<TwitterShareButton url="Hello, My name is HariCharan.I'm a Webdeveloper and UI/UX specialist.👉 https://haricharanportfolio.web.app"  className='icon'>
 <TwitterIcon size={40} square='true'/>
 </TwitterShareButton>
-<EmailShareButton url="Hello, My name is HariCharan.I'm a Webdeveloper and UI/UX specialist.👉 https://iharicharan.github.io/Portfolio"  className='icon'>
+<EmailShareButton url="Hello, My name is HariCharan.I'm a Webdeveloper and UI/UX specialist.👉 https://haricharanportfolio.web.app"  className='icon'>
 <EmailIcon size={40} square='true'/>
 </EmailShareButton>
 </article>
@@ -194,16 +194,16 @@ function homeshare2(){
   
     <Zoom right>
     <article  className='sharebuttons1' style={{display:'none'}}> 
-    <FacebookShareButton url="https://iharicharan.github.io/Portfolio" quote="Hello, My name is HariCharan.I'm a Webdeveloper and UI/UX specialist." className='icon'>
+    <FacebookShareButton url="https://haricharanportfolio.web.app" quote="Hello, My name is HariCharan.I'm a Webdeveloper and UI/UX specialist." className='icon'>
      <FacebookIcon size={40} square='true'/>
 </FacebookShareButton>
-<WhatsappShareButton url="*Hello,My name is HariCharan.I'm a Webdeveloper and UI/UX specialist.!*.👉 https://iharicharan.github.io/Portfolio" className='icon' >
+<WhatsappShareButton url="*Hello,My name is HariCharan.I'm a Webdeveloper and UI/UX specialist.!*.👉 https://haricharanportfolio.web.app" className='icon' >
 <WhatsappIcon size={40} square='true'/>
 </WhatsappShareButton>
-<TwitterShareButton url="Hello, My name is HariCharan.I'm a Webdeveloper and UI/UX specialist.👉 https://iharicharan.github.io/Portfolio"  className='icon'>
+<TwitterShareButton url="Hello, My name is HariCharan.I'm a Webdeveloper and UI/UX specialist.👉 https://haricharanportfolio.web.app"  className='icon'>
 <TwitterIcon size={40} square='true'/>
 </TwitterShareButton>
-<EmailShareButton url="Hello, My name is HariCharan.I'm a Webweb developer and UI/UX specialist.👉 https://iharicharan.github.io/Portfolio"  className='icon'>
+<EmailShareButton url="Hello, My name is HariCharan.I'm a Webweb developer and UI/UX specialist.👉 https://haricharanportfolio.web.app"  className='icon'>
 <EmailIcon size={40} square='true'/>
 </EmailShareButton>
 </article>
@@ -248,16 +248,16 @@ function homeshare2(){
    
     <Zoom right>
     <article className='sharebuttons2' style={{display:'none'}}> 
-  <FacebookShareButton url="https://iharicharan.github.io/Portfolio" quote="Hello, My name is HariCharan.I'm a Webdeveloper and UI/UX specialist." className='icon'>
+  <FacebookShareButton url="https://haricharanportfolio.web.app" quote="Hello, My name is HariCharan.I'm a Webdeveloper and UI/UX specialist." className='icon'>
      <FacebookIcon size={40} square='true'/>
 </FacebookShareButton>
-<WhatsappShareButton url="*Hello,My name is HariCharan.I'm a Webdeveloper and UI/UX specialist.!*.👉 https://iharicharan.github.io/Portfolio" className='icon' >
+<WhatsappShareButton url="*Hello,My name is HariCharan.I'm a Webdeveloper and UI/UX specialist.!*.👉 https://haricharanportfolio.web.app" className='icon' >
 <WhatsappIcon size={40} square='true'/>
 </WhatsappShareButton>
-<TwitterShareButton url="Hello, My name is HariCharan.I'm a Webdeveloper and UI/UX specialist.👉 https://iharicharan.github.io/Portfolio"  className='icon'>
+<TwitterShareButton url="Hello, My name is HariCharan.I'm a Webdeveloper and UI/UX specialist.👉 https://haricharanportfolio.web.app"  className='icon'>
 <TwitterIcon size={40} square='true'/>
 </TwitterShareButton>
-<EmailShareButton url="Hello, My name is HariCharan.I'm a Webdeveloper and UI/UX specialist.👉 https://iharicharan.github.io/Portfolio"  className='icon'>
+<EmailShareButton url="Hello, My name is HariCharan.I'm a Webdeveloper and UI/UX specialist.👉 https://haricharanportfolio.web.app"  className='icon'>
 <EmailIcon size={40} square='true'/>
 </EmailShareButton>
 </article>

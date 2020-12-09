@@ -1,8 +1,5 @@
 import React from 'react'
-import logo from './svg/home.svg'
-import logo2 from './svg/exe.svg'
-import logo3 from './svg/proj.svg'
-import logo4 from './svg/opensrc.svg'
+import Fade from 'react-reveal/Fade';
 import Home from './Pages/Home'
 import About from './Pages/About'
 import Projects from './Pages/Projects'
@@ -129,21 +126,19 @@ export default function App(){
 
 </div>
     </section>
-   
+  <Fade top>
  <section className='flex-fixed-box'>     
 <section className='txt'>
-<Link to='/' style={{textDecoration:'none'}}>
-    <div onClick={homel}>
-      <img src={logo}  alt="logo" className='logo'/>
-        <p>Home</p></div>
-        </Link>
-<Link to ='/Skills'  style={{textDecoration:'none'}}><div onClick={skills}><img src={logo4} alt='logo' className='logo4'/><p>Skills</p></div></Link>
-<Link to ='/About'  style={{textDecoration:'none'}}><div onClick={about}><img src={logo2} alt='logo' className='logo2'/><p>About</p></div></Link>
-<Link to ='/Projects'  style={{textDecoration:'none'}}><div onClick={project}><img src={logo3} alt='logo' className='logo3'/><p>Projects</p></div></Link>
+<Link to='/' style={{textDecoration:'none'}}><div onClick={homel}><i class="fa fa-home" aria-hidden="true"/><span>Home</span></div></Link>
+<Link to ='/Skills'  style={{textDecoration:'none'}}><div onClick={skills}><i class="fa fa-desktop"/><span>Skills</span></div></Link>
+<Link to ='/About'  style={{textDecoration:'none'}}><div onClick={about}><i class="fa fa-car"/><span>About</span></div></Link>
+<Link to ='/Projects'  style={{textDecoration:'none'}}><div onClick={project}><i class="fa fa-file"/><span>Projects</span></div></Link>
 </section>
 <Link to='/contact'> <div onClick={contactme}> <button>Contact Me</button></div></Link>
 </section>
+</Fade>
 </section>
+
         </>
     );
 }

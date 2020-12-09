@@ -43,8 +43,8 @@ const project=()=>{
 </div>
 <Zoom right>
 <div className='projects-content-box-body'>
-<div><a href='https://github.com/iharicharan/MyPortfolio' targer='github'><h3>MyPortfolio</h3></a><img src={myport} alt=''/>
-<a href='https://haricharan-portfolio.web.app/' targer='github'><p><i className="fa fa-eye" aria-hidden="true"></i><span>Live Preview</span></p></a></div>
+<div><a href='https://github.com/iharicharan/Portfolio' targer='github'><h3>MyPortfolio</h3></a><img src={myport} alt=''/>
+<a href='https://haricharanportfolio.web.app' targer='github'><p><i className="fa fa-eye" aria-hidden="true"></i><span>Live Preview</span></p></a></div>
 <div><a href='https://github.com/iharicharan/GreenDiwali' target='github'><h3>GreenDiwali</h3></a><img src={greendiwali} alt=''/>
 <a href='https://diwali-wishes1.web.app/' targer='github'><p><i className="fa fa-eye" aria-hidden="true"></i><span>Live Preview</span></p></a></div>
 <div><a href='https://github.com/iharicharan/windows10clone' target='github'><h3>windows10clone</h3></a><img src={windows10} alt=''/>

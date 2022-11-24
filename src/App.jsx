@@ -59,7 +59,6 @@ export default function App(){
             <Route exact path='/About' component={About}/>
             <Route exact path='/Projects' component={Projects}/>
             <Route exact path='/Skills' component={Skills}/>
-            <Redirect to='/' />
         </Switch>
        
     <section className='main-text'><div className='span-text'>HariCharan</div>
